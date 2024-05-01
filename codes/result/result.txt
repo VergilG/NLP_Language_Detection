@@ -1,0 +1,36 @@
+ngram
+Accuracy: 0.8157320524955405
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.67      0.79    465355
+           1       0.72      0.98      0.83    413653
+
+    accuracy                           0.82    879008
+   macro avg       0.85      0.82      0.81    879008
+weighted avg       0.86      0.82      0.81    879008
+
+tfidf
+Accuracy: 0.8402198842331355
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.72      0.83    465355
+           1       0.75      0.98      0.85    413653
+
+    accuracy                           0.84    879008
+   macro avg       0.86      0.85      0.84    879008
+weighted avg       0.87      0.84      0.84    879008
+
+bow
+Accuracy: 0.8116649677818631
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.66      0.79    465355
+           1       0.72      0.98      0.83    413653
+
+    accuracy                           0.81    879008
+   macro avg       0.85      0.82      0.81    879008
+weighted avg       0.86      0.81      0.81    879008
+

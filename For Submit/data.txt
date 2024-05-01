@@ -1,0 +1,24 @@
+Modern Chinese Corpus:
+- where
+https://github.com/codemayq/chinese-chatbot-corpus
+This is a Chinese chatbot project, which collects many modern Chinese corpora. The modern Chinese part of my data was taken from the data set of this project.
+
+- how
+The preprocessing of this part of the corpus includes:
+-- Remove special characters
+-- Use 'jieba' library for word segmentation
+-- Split sentences according to punctuation marks
+
+
+Classical Chinese Corpus:
+- where
+https://github.com/NiuTrans/Classical-Modern
+This is a corpus processing project that deals with the translation of classical Chinese into English and modern Chinese. Like the Modern Chinese part, I only used the original database as my corpus.
+
+- how
+The preprocessing of this part of the corpus includes:
+-- Integrate txt files distributed in various subfolders
+-- Remove special characters
+-- Use 'thulac' library for word segmentation
+-  Split sentences according to punctuation marks
+
